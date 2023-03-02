@@ -16,7 +16,9 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  }],
+  /// Configure github pages
+  pathPrefix: "ai-learning"
 };
 
 export default config;
